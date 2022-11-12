@@ -1,0 +1,37 @@
+
+
+h1 {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 24 px;
+    color: limegreen;
+    background-color: black;
+    
+}
+body {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 24 px;
+    color: limegreen;
+    background-color: black;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img:hover {
+    transform: scale(1.25,1.25);
+}
+
+img {
+    width: 252px;
+    height: 252px;
+    margin: 10px;
+    transition: all 1s;
+}
